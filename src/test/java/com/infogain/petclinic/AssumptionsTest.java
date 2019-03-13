@@ -6,8 +6,10 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
-@Tags(value= {@Tag("Model"),@Tag("Controller")})
-public class AssumptionsTest {
+
+import com.infogain.petclinic.testinterfaces.ControllersTests;
+import com.infogain.petclinic.testinterfaces.ModelsTests;
+public class AssumptionsTest implements ModelsTests,ControllersTests{
 	 @Test
 	    void testAssumptionTrue() {
 

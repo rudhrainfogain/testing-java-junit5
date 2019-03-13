@@ -1,11 +1,12 @@
 package com.infogain.petclinic.model;
 import org.junit.jupiter.api.Test;
 
+import com.infogain.petclinic.testinterfaces.ModelsTests;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Tag;
-@Tag("Model")
-class PersonTest {
+class PersonTest implements ModelsTests{
 
     @Test
     void groupedAssertions() {

@@ -9,8 +9,8 @@ import org.junit.jupiter.api.Test;
 
 import com.infogain.petclinic.controllers.IndexController;
 import com.infogain.petclinic.exceptions.ValueNotFoundException;
-@Tag("Controller")
-class IndexControllerTest {
+import com.infogain.petclinic.testinterfaces.ControllersTests;
+class IndexControllerTest implements ControllersTests {
 
     IndexController controller;
 
